@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const mongoURI = 'mongodb://localhost:27017/todolist'; 
+const mongoURI = 'mongodb://localhost:27017/login_register'; 
 
 async function connectDB() {
   try {

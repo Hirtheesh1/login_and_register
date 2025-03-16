@@ -4,7 +4,7 @@ const router = require('./routes/routes');
 const app = express();
 const port = 3000;
 
-require('./models/db')/
+require('./models/db')
  
 app.use(cors());
 app.use(express.json());
